@@ -1,0 +1,17 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <B N="up">true</B>
+      <I32 N="start_ip">2</I32>
+      <I32 N="end_ip">254</I32>
+      <I32 N="target_id">3</I32>
+      <S N="network">192.168.43.1</S>
+      <B N="portscan">true</B>
+      <S N="domain">globomantics.local</S>
+    </MS>
+  </Obj>
+</Objs>
