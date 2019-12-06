@@ -1,0 +1,18 @@
+# Workshop: Security Operations with Powershell
+
+4 Hour Workshop
+
+## Introduction (Abstract)
+Following along with the spirit of powershelling all of the things, open-source PowerShell and PScore 7+ supported all OS platforms; it is time to learn multi-platform PowerShell security operations. Stopping there?  No way! With information coming from every source imaginable, you need a way to collect and analyze that information. Which is a perfect job for everyone's favorite open source database/interface solution, the Elastic Stack. Powershell is either already in place or allowed by default in many restricted environments and makes and makes for a ubiquitous living on the land binary for defensive cyber operators.
+
+Whether performing continuous monitoring, intermittent threat hunting, or incident response, having access to the devices and resources available in your respective enterprise is a success condition. In this workshop, you learn how to install PowerShell cor 7 (current release) on Windows, Linux, and macOS devices through different local and remote install options. Next, you learn to leverage winRM for windows and ssh remoting for nix/osx devices to create power shell remote connections to each device. With PowerShell remote sessions established to every device, everything is pretty familiar.  Pull net connections, query running process, and several other available queries useful for identifying malicious activity and pull that back to your centralized "security operations" endpoint. If you don't have the flexibility to create an elasticsearch service in your environment, don't sweat it.  Aggregating, analyzing, and reporting interesting findings with nothing more than PowerShell is the perfect tool for your toolbelt.  But, for when the opportunity arises, you will learn to quickly spin up a cloud instance, convert your freshly procured security opeartions data into json, ingest ,and analyze in kibana with ease and dashboard creating swag over 9000. 
+
+## Setting Up your PowerShell Environment                               15 min
+## Powershell Network Discover and Enumeration                          20 min
+## Deploying PowerShell core 7 on dissimilar OS's                       15 min
+## Creating Powershell Remoting Sessions with Winrm and SSH             20 min
+## Running OS information queries across your Environment               20 min
+## Collecting and Analyzing Information with PowerShell                 10 min
+## Analyzing Powershell Collected Information with the Elastic Stack    20 min
+
+Pre- Requirements:  Create an elasticsearch cloud trial account, have 1 of each a Linux OS and 1 Windows OS, VM, or hard box prepared. If you also are virtualizing these on a Mac, then that is helpful, but we will have a Mac device for you to connect to if you like(be nice).
