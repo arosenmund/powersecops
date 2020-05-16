@@ -86,7 +86,10 @@ cd "C:\"
 
 ```
 
-CD "c:\powersecops"
+CD "c:\powersecops"|   |   |
+|---|---|
+|   |   |
+
 
 This is the main folder with a structure of the following:
 
